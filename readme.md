@@ -3,7 +3,7 @@
 **Prompt BI** is a modern, web-based business intelligence application that allows users to upload, query, and visualize data using natural language commands.
 
 
-## ## Features
+## Features
 
 * **Natural Language Commands**: Control the entire application through a simple, chat-like prompt interface.
 * **Multi-Command Processing**: Execute multiple actions in a single prompt (e.g., "Load `sales_report.xlsx` and visualize profit by region").
@@ -14,31 +14,31 @@
 
 ---
 
-## ## Tech Stack
+## Tech Stack
 
-### ### Backend
+### Backend
 * **Language**: Python 3.10
 * **Framework**: Flask
 * **AI**: Ollama (running `phi3:medium` locally)
 * **Data Manipulation**: Pandas
 
-### ### Frontend
+### Frontend
 * **Library**: React.js (with Vite)
 * **API Client**: Axios
 * **Charting**: Plotly.js
 
 ---
 
-## ## How to Run Locally
+## How to Run Locally
 
 To run this project on your own machine, follow these steps.
 
-### ### Prerequisites
+### Prerequisites
 * [Python 3.10+](https://www.python.org/downloads/)
 * [Node.js and npm](https://nodejs.org/en/download/)
 * [Ollama](https://ollama.com/)
 
-### ### 1. Backend Setup
+### 1. Backend Setup
 
 ```bash
 # Clone the repository
